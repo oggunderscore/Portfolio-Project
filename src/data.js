@@ -1,40 +1,24 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    id: 0,
+    name: "Tesla Discord Bot",
+    quote:
+      ["Created a smart JavaScript application using DiscordJS, TeslaJS, Nodemon, Node.js that allowed Tesla vehicle owners to control car functions remotely",
+        "Features include: open / close windows, open trunk / trunk, remote start, controlling HVAC, real-time information about vehicle status, charging, and security",]
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    id: 1,
+    name: "Personal & School Related Projects",
+    quote:
+      ["Constructed a 8-bit computer from scratch utilizing simple logic gates and clocks",
+      "Basic level understanding of Drone Building (ESC, flight controller, transmitter, VTX, motors)",
+      "Made a RGB LED controller using a Raspberry Pi",]
   },
 ];
 
-export const testimonials = [
+export const experience = [
   {
+    id: 0,
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
@@ -42,6 +26,7 @@ export const testimonials = [
     company: "Zoozle",
   },
   {
+    id: 1,
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",

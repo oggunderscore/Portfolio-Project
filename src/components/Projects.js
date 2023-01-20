@@ -9,38 +9,39 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu
+          ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu
+          ayayaya owo uwu ayayaya owo uwu
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+            <div className="p-4 md:w-1/2 w-full">
+              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <CodeIcon className="block w-8 text-gray-500 mb-4" />
+                <p className="leading-relaxed mb-6">{project.quote}</p>
+                <div className="inline-flex items-center">
+                  <img
+                    alt="experience"
+                    src={project.image}
+                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-white">
+                      {project.name}
+                    </span>
+                    <span className="text-gray-500 text-sm uppercase">
+                      {project.company}
+                    </span>
+                  </span>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
+
         </div>
       </div>
     </section>
