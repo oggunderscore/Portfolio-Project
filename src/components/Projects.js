@@ -1,4 +1,4 @@
-import { CodeIcon } from "@heroicons/react/solid";
+import { BriefcaseIcon, CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
@@ -12,9 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu
-          ayayaya owo uwu ayayaya owo uwu ayayaya owo uwu
-          ayayaya owo uwu ayayaya owo uwu
+          Below are some of the projects have I worked on in the past.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,11 +22,12 @@ export default function Projects() {
                 <CodeIcon className="block w-8 text-gray-500 mb-4" />
                 <p className="leading-relaxed mb-6">{project.quote}</p>
                 <div className="inline-flex items-center">
-                  <img
+                  <BriefcaseIcon  className="block w-6 text-gray-500"/>
+                  {/* <img
                     alt="experience"
                     src={project.image}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                  /> */}
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white">
                       {project.name}

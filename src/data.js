@@ -2,6 +2,7 @@ export const projects = [
   {
     id: 0,
     name: "Tesla Discord Bot",
+    image: "https://pics.freeicons.io/uploads/icons/png/14291991451579780443-512.png",
     quote:
       ["Created a smart JavaScript application using DiscordJS, TeslaJS, Nodemon, Node.js that allowed Tesla vehicle owners to control car functions remotely",
         "Features include: open / close windows, open trunk / trunk, remote start, controlling HVAC, real-time information about vehicle status, charging, and security",]
@@ -38,8 +39,13 @@ export const experience = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
   "Node",
+  "C++ / C",
+  "Python",
+  "Unit Testing",
+  "CI/CD",
+  "Assembly",
+  "MySQL",
   "GraphQL",
   "Material UI",
 ];
